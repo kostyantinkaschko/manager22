@@ -1,0 +1,154 @@
+body {
+    background: #8dc63f;
+    font: 14px Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.football {
+    padding: 0;
+    margin: 0;
+    color: #39930d;
+}
+
+.manager {
+    color: #39930d;
+    font-weight: bold;
+    font-family: "Arial";
+    font-size: 44px;
+}
+
+.left {
+    text-align: left;
+    float: left;
+    display: block;
+    padding-right: 34px;
+}
+
+.ball {
+    float: left;
+    margin-bottom: 25px;
+}
+
+.contacs {
+    float: right;
+}
+
+.number {
+    color: #39930d;
+    font-family: "Arial";
+    font-size: 22px;
+}
+
+.italic,
+.graph {
+    color: #5a5a5a;
+    font-style: italic;
+    font-family: "Arial";
+    padding-top: 11px;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    padding-top: 25px;
+
+}
+
+.header span {
+    display: flex;
+}
+
+.header p {
+    margin: 0;
+}
+
+.graph {
+    float: right;
+}
+
+.content {
+    display: block;
+}
+
+.main {
+    float: left;
+
+}
+
+.main p:first-child {
+    margin-top: 25px;
+    font-size: 24px;
+    color: #39930d;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.main p {
+    margin-top: 23px;
+    width: 599px;
+    font-size: 14px;
+    color: #343434;
+    font-family: "Arial";
+}
+
+.menu {
+    float: right;
+}
+
+.menu p {
+    padding: 14px;
+    color: white;
+    background: #39930d;
+    font-family: "Arial";
+    font-size: 18px;
+    width: 300px;
+}
+
+.menu ul {
+    padding: 0 20px;
+    list-style-type: none;
+}
+
+.menu li {
+    margin-bottom: 5px;
+}
+
+.menu a {
+    color: #39930d;
+    text-transform: uppercase;
+    line-height: 24px;
+    transition: all .5s ease;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+    color: #295210;
+    opacity: 85%;
+}
+
+footer {
+    background: #39930d;
+    width: 960px;
+    margin: 0 -15px;
+    margin-top: 53px;
+}
+
+.copyright {
+    padding: 17px 15px 14px;
+    color: #fff;
+    margin-bottom: 0;
+}
