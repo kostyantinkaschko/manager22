@@ -1,4 +1,3 @@
-
 body {
     background: #8dc63f;
     font: 14px Arial;
@@ -65,16 +64,15 @@ body {
     clear: both;
 }
 
-.header {
+header {
     padding-top: 23px;
 
 }
 
-.header span {
+header span {
     display: flex;
 }
-
-.header p {
+header p {
     margin: 0;
 }
 
@@ -86,13 +84,13 @@ body {
     display: block;
 }
 
-.main {
+main {
     float: left;
     width: 539px;
-
+    margin-bottom: 10px;
 }
 
-.main p:first-child {
+main p:first-child {
     font-size: 24px;
     color: #39930d;
     font-weight: bold;
@@ -100,18 +98,18 @@ body {
     margin: 25px 0 16px;
 }
 
-.main p {
+main p {
     font-size: 14px;
     color: #343434;
     font-family: "Arial";
     line-height: 20px;
 }
 
-.aside {
+.menu {
     float: right;
 }
 
-.aside p {
+.menu p {
     padding: 14px;
     color: white;
     background: #39930d;
@@ -120,16 +118,16 @@ body {
     width: 300px;
 }
 
-.aside ul {
+.menu ul {
     padding: 0 20px;
     list-style-type: none;
 }
 
-.aside li {
+.menu li {
     margin-bottom: 5px;
 }
 
-.aside a {
+.menu a {
     color: #39930d;
     text-transform: uppercase;
     line-height: 24px;
@@ -137,7 +135,7 @@ body {
     font-size: 14px;
 }
 
-.aside a:hover {
+.menu a:hover {
     text-decoration: none;
     padding: 0 20px;
     display: block;
@@ -152,7 +150,7 @@ body {
 
 footer {
     background: #39930d;
-    margin: 52px -15px;
+    margin: 0 -15px;
 }
 
 .copyright {
@@ -178,33 +176,33 @@ footer {
 }
 
 @media screen and (max-width: 897px) {
-    .main {
+    main {
         width: 507px;
     }
 }
 
 @media screen and (max-width: 865px) {
-    .main {
+    main {
         width: 400px;
     }
 }
 
 @media screen and (max-width: 758px) {
-    .main {
+    main {
         width: 300px;
     }
 }
 
 @media screen and (max-width: 658px) {
-    .main {
+    main {
         width: 250px;
     }
 }
 
 @media screen and (max-width: 608px) {
 
-    .main,
-    .aside {
+    main,
+    menu {
         float: none;
     }
 
@@ -214,7 +212,7 @@ footer {
 }
 
 @media screen and (max-width: 589px) {
-    .header img {
+    header img {
         display: none;
     }
 }
