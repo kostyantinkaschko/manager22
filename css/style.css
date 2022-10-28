@@ -93,7 +93,10 @@ header p {
     flex-direction: column;
 }
 
-header p {
+header span:first-child {
+    font-size: 22px;
+    color: #39930d;
+    font-family: "Arial";
     margin: 0;
 }
 
