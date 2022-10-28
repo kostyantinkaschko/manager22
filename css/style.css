@@ -38,6 +38,10 @@ body {
     padding-left: 34px;
 }
 
+.logo p{
+
+}
+
 
 .logo span,
 .logo h1{
@@ -111,7 +115,7 @@ main {
     margin-bottom: 10px;
 }
 
-main p:first-child {
+h1{
     font-size: 24px;
     color: #39930d;
     font-weight: bold;
