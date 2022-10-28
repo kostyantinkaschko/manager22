@@ -34,17 +34,17 @@ body {
     display: flex;
 }
 
-.logo img{
+.logo img {
     padding-left: 34px;
 }
 
-.logo p{
+.logo p {
     margin: 0;
 }
 
 
 .logo span,
-.logo h1{
+.logo h1 {
     display: inline-block;
 }
 
@@ -54,7 +54,7 @@ body {
     flex-direction: column;
 }
 
-.contacs span{
+.contacs span {
     text-align: right;
 }
 
@@ -100,11 +100,11 @@ header span:first-child {
     margin: 0;
 }
 
-header a{
+header a {
     text-decoration: none;
 }
 
-h1{
+h1 {
     margin: 0;
 }
 
@@ -118,7 +118,7 @@ main {
     margin-bottom: 10px;
 }
 
-h1{
+h1 {
     font-size: 24px;
     color: #39930d;
     font-weight: bold;
@@ -197,41 +197,6 @@ footer {
 @media screen and (max-width: 945px) {
     .general-img {
         overflow-x: scroll;
-    }
-
-}
-
-@media screen and (max-width: 897px) {
-    main {
-        width: 507px;
-    }
-}
-
-@media screen and (max-width: 865px) {
-    main {
-        width: 400px;
-    }
-}
-
-@media screen and (max-width: 758px) {
-    main {
-        width: 300px;
-    }
-}
-
-@media screen and (max-width: 658px) {
-    main {
-        width: 250px;
-    }
-}
-
-@media screen and (max-width: 608px) {
-
-    main,
-    menu {}
-
-    .main {
-        width: auto;
     }
 }
 
