@@ -3,7 +3,7 @@ body {
     font: 14px Arial;
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -30,16 +30,21 @@ body {
     font-size: 44px;
 }
 
-.title {
-    float: left;
-    display: block;
+.logo {
+    display: flex;
     padding-right: 34px;
 }
 
 
+.logo span,
+.logo h1{
+    display: inline-block;
+}
+
 
 .contacs {
-    float: right;
+    display: flex;
+    flex-direction: column;
 }
 
 .number {
@@ -47,6 +52,8 @@ body {
     font-family: "Arial";
     font-size: 22px;
 }
+
+
 
 .italic,
 .graph {
@@ -66,26 +73,28 @@ body {
 
 header {
     padding-top: 23px;
-
-}
-
-header span {
     display: flex;
+    justify-content: space-between;
 }
+
+header p {
+    display: flex;
+    flex-direction: column;
+}
+
 header p {
     margin: 0;
 }
 
-.graph {
-    float: right;
+h1{
+    margin: 0;
 }
 
 .content {
-    display: block;
+    display: flex;
 }
 
 main {
-    float: left;
     width: 539px;
     margin-bottom: 10px;
 }
@@ -105,9 +114,7 @@ main p {
     line-height: 20px;
 }
 
-.menu {
-    float: right;
-}
+.menu {}
 
 .menu p {
     padding: 14px;
@@ -144,7 +151,7 @@ main p {
     cursor: url('../img/cursor.cur'), auto;
 }
 
-.main p:last-child{
+.main p:last-child {
     margin: 0;
 }
 
@@ -159,12 +166,13 @@ footer {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 897px){
-    body{
+@media screen and (max-width: 897px) {
+    body {
         overflow-y: visible;
     }
-    footer{
-        margin-top: 65px;    
+
+    footer {
+        margin-top: 65px;
     }
 }
 
@@ -202,9 +210,7 @@ footer {
 @media screen and (max-width: 608px) {
 
     main,
-    menu {
-        float: none;
-    }
+    menu {}
 
     .main {
         width: auto;
