@@ -32,7 +32,10 @@ body {
 
 .logo {
     display: flex;
-    padding-right: 34px;
+}
+
+.logo img{
+    padding-left: 34px;
 }
 
 
@@ -45,6 +48,10 @@ body {
 .contacs {
     display: flex;
     flex-direction: column;
+}
+
+.contacs span{
+    text-align: right;
 }
 
 .number {
@@ -84,6 +91,10 @@ header p {
 
 header p {
     margin: 0;
+}
+
+header a{
+    text-decoration: none;
 }
 
 h1{
