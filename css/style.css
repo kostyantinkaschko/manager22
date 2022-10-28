@@ -92,6 +92,7 @@ h1{
 
 .content {
     display: flex;
+    justify-content: space-between;
 }
 
 main {
@@ -114,7 +115,6 @@ main p {
     line-height: 20px;
 }
 
-.menu {}
 
 .menu p {
     padding: 14px;
