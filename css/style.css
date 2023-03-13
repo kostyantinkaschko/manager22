@@ -214,7 +214,6 @@ footer {
         text-align-last: left;
     }
     header span,
-    header i,
     .contacs span {
         text-align: center;
     }
@@ -245,6 +244,9 @@ footer {
 
     .menu p {
         max-width: 100%;
+    }
+    .contacs span{
+        text-align: center;
     }
 }
 
