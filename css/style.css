@@ -1,0 +1,271 @@
+html {
+    font-size: 1px;
+}
+
+body {
+    background: #8dc63f;
+    font: 14rem Arial;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    background-color: #fff;
+    max-width: 960rem;
+    margin: 0 auto;
+    padding: 0 15rem;
+    box-sizing: border-box;
+}
+
+
+
+.label img {
+    width: 100%;
+    height: 200rem;
+    object-fit: cover;
+    object-position: 75%;
+    vertical-align: bottom;
+}
+
+
+.manager {
+    color: #39930d;
+    font-weight: bold;
+    font-family: "Arial";
+    font-size: 44rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    padding-left: 34rem;
+}
+
+
+.logo p {
+    margin: 0;
+}
+
+
+.logo span,
+.logo h1 {
+    display: inline-block;
+}
+
+
+.contacs {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacs span {
+    text-align: right;
+}
+
+.number {
+    color: #39930d;
+    font-family: "Arial";
+    font-size: 22rem;
+}
+
+
+
+.italic,
+.graph {
+    color: #5a5a5a;
+    font-style: italic;
+    font-family: "Arial";
+    padding-top: 11rem;
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+header {
+    padding: 23rem 0 23rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p {
+    display: flex;
+    flex-direction: column;
+}
+
+header span:first-child {
+    font-size: 22rem;
+    color: #39930d;
+    font-family: "Arial";
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 36px;
+}
+
+main {
+    margin-bottom: 10rem;
+}
+
+h1 {
+    font-size: 24rem;
+    color: #39930d;
+    font-weight: bold;
+    font-family: "Arial";
+    margin: 25rem 0 16rem;
+}
+
+main p {
+    font-size: 14rem;
+    color: #343434;
+    font-family: "Arial";
+    line-height: 20rem;
+}
+
+
+.menu {
+    width: 100%;
+}
+
+.menu p {
+    padding: 14rem;
+    color: white;
+    background: #39930d;
+    font-family: "Arial";
+    font-size: 18rem;
+}
+
+.menu ul {
+    padding: 0 20rem;
+    list-style-type: none;
+}
+
+.menu li {
+    margin-bottom: 5rem;
+}
+
+.menu a {
+    color: #39930d;
+    text-transform: uppercase;
+    line-height: 24rem;
+    transition: all .5s ease;
+    font-size: 14rem;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    filter: drop-shadow(2px 4px 6px black);
+    display: block;
+    color: #295210;
+    opacity: 80%;
+}
+
+.main p:last-child {
+    margin: 0;
+}
+
+footer {
+    background: #39930d;
+    margin: 0 -15rem;
+}
+
+.copyright {
+    padding: 17rem 15rem 14rem;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 390px) {
+    .logo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo img {
+        padding: 0;
+        margin-bottom: 23px;
+    }
+
+    .contacs {
+        align-items: center;
+    }
+
+    .contacs span {
+        text-align-last: left;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    header {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 23rem 0 23rem 0;
+    }
+
+    header span,
+    header i,
+    .contacs span {
+        text-align: center;
+    }
+}
+
+@media screen and(min-width: 768px) {
+    .menu p {
+        width: 300rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-wrap: wrap;
+    }
+
+    .menu p {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 2560px) {
+    html {
+        font-size: 1.8px;
+    }
+
+    .logo img {
+        width: 183px;
+    }
+}
+
+
+@media screen and (min-width: 3860px) {
+    html {
+        font-size: 2.8px;
+    }
+
+    .logo img {
+        width: 284px;
+    }
+
+}
