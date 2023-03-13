@@ -213,22 +213,23 @@ footer {
     .contacs span {
         text-align-last: left;
     }
-
-}
-
-@media screen and (max-width: 590px) {
-    header {
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: center;
-        padding: 23rem 0 23rem 0;
-    }
-
     header span,
     header i,
     .contacs span {
         text-align: center;
     }
+
+}
+
+@media screen and (max-width: 592px) {
+    header {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 23rem 0 23rem 0;
+        row-gap: 30px;
+    }
+
 }
 
 @media screen and(min-width: 768px) {
@@ -237,7 +238,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 901px) {
     .content {
         flex-wrap: wrap;
     }
