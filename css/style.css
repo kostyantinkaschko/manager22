@@ -203,7 +203,7 @@ footer {
 
     .logo img {
         padding: 0;
-        margin-bottom: 23px;
+        margin: 23px 0 23px 0;
     }
 
     .contacs {
@@ -213,8 +213,8 @@ footer {
     .contacs span {
         text-align-last: left;
     }
-    header span,
-    .contacs span {
+
+    header {
         text-align: center;
     }
 
@@ -227,6 +227,14 @@ footer {
         align-items: center;
         padding: 23rem 0 23rem 0;
         row-gap: 30px;
+    }
+
+    .logo p{
+        margin-bottom: 15px;
+    }
+
+    .contacs span {
+        text-align: center;
     }
 
 }
@@ -244,9 +252,6 @@ footer {
 
     .menu p {
         max-width: 100%;
-    }
-    .contacs span{
-        text-align: center;
     }
 }
 
